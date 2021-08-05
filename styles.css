@@ -90,7 +90,7 @@ li {
     font-weight: bold;
 }
 
-/*progress {
+progress {
     width: 70%;
     height: 20px;
     color: #3fb6b2;
@@ -105,7 +105,7 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
     color: #3fb6b2;
     background:#efefef;
-}*/
+}
 
 iframe, audio {
     display: block;
@@ -148,4 +148,26 @@ input, textarea {
     border-radius: 5px;
     width: 70%;
     outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
 }
